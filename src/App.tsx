@@ -56,6 +56,9 @@ function App() {
           </div>
         </div>
         <div className="customer-food-container">
+          <div>
+            <h5 className="reservation-header">Customers</h5>
+          </div>
           {customerList.map((customer) => {
             return (
               <>
